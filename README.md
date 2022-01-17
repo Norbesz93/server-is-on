@@ -33,15 +33,3 @@ You have to create an API that manage the json files where the students data is 
 
 None
 
-## Hints
-
-- For the file reading, don't use the `require()` built-in function. Require is synchronous function and is called only once, which means the calls receive a cached result. If the file is updated you can't re-read it using this method.
-
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Getting started](https://expressjs.com/en/starter/hello-world.html)
-- <i class="far fa-exclamation"></i> [Endpoints](https://expressjs.com/en/starter/basic-routing.html)
-- <i class="far fa-book-open"></i> [FAQ](https://expressjs.com/en/starter/faq.html)
-- <i class="far fa-book-open"></i> [RESTful API overview](https://searchapparchitecture.techtarget.com/definition/RESTful-API)
-- <i class="far fa-exclamation"></i> <i class="far fa-video"></i> [REST API through examples](https://www.youtube.com/watch?v=7YcW25PHnAA)
-- <i class="far fa-book-open"></i> [Ports](https://flaviocopes.com/ports/)
